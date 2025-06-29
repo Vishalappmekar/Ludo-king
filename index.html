@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProLudo Champion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ProLudo Champion</h1>
+    <p>Wallet Balance: ₹<span id="wallet">0</span></p>
+
+    <input type="text" id="username" placeholder="Enter Username">
+    <button onclick="loginUser()">🔐 Login</button>
+
+    <button onclick="addCoins()">➕ Add ₹10</button>
+    <button onclick="joinTournament()">🎮 Join Tournament ₹10</button>
+    <button onclick="withdraw()">💸 Withdraw ₹100</button>
+
+    <div id="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
